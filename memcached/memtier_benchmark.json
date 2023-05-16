@@ -1,0 +1,15 @@
+{
+    "name" : "memtier_benchmark",
+    "base" : "fedora-neomem.json",
+    "overlay" : "overlay",
+    "host-init" : "host-init.sh",
+    "workloads" : [
+        {
+          "name" : "memtier_benchmark",
+          "outputs" : [ "/root/run_result.csv" ],
+          "command" : "bash"
+        }
+      ]
+  }
+  
+  

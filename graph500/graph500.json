@@ -1,0 +1,14 @@
+{
+  "name" : "graph500",
+  "base" : "fedora-neomem.json",
+  "overlay" : "overlay",
+  "host-init" : "host-init.sh",
+  "workloads" : [
+    {
+      "name" : "bfs",
+      "outputs" : [ "/root/run_result.csv" ],
+      "command" : "./bfs -u 10 -n 1"
+    }
+  ]
+}
+

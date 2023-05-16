@@ -1,0 +1,15 @@
+{
+    "name" : "tlb-test",
+    "base" : "fedora-neomem.json",
+    "overlay" : "overlay",
+    "host-init" : "host-init.sh",
+    "workloads" : [
+      {
+        "name" : "tbl-test",
+        "outputs" : [ "/root/run_result.csv" ],
+        "command" : "cd /root && make run"
+      }
+    ]
+  }
+  
+  
