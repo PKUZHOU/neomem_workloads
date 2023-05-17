@@ -1,5 +1,5 @@
 {
-    "name" : "memtier_benchmark",
+    "name" : "redis_bench",
     "base" : "fedora-neomem.json",
     "overlay" : "overlay",
     "host-init" : "host-init.sh",
