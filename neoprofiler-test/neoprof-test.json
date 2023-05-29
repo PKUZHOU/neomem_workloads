@@ -1,0 +1,11 @@
+{
+    "name" : "neoprof-test",
+    "base" : "bare-base.json",
+    "host-init" : "build.sh",
+    "bin" : "neoprof_test.riscv",
+    "workdir" : ".",
+    "testing" : {
+        "refDir" : "refOutput"
+    }
+}
+
